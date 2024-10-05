@@ -1,5 +1,5 @@
 {
-  "name": "library-manager",
+  "name": "nextjs-mongodb",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/react-router": "^5.1.20",
+    "bcrypt": "^5.1.1",
+    "mongoose": "^8.7.0",
+    "next": "14.2.14",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.14"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "eslint": "^8",
